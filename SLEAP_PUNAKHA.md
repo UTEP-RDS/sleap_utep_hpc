@@ -85,7 +85,7 @@ You should see:
 
 ### 6.2 Sample inference test
 ```bash
-sleap track -i sample/mouse_test.mp4 -m model
+sleap track -i input/mouse_test.mp4 -m model
 ```
 
 ## 7. Batch Job Example for SLEAP Tracking
