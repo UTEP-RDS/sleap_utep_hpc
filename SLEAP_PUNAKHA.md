@@ -1,4 +1,4 @@
-# Installing SLEAP on the UTEP PUNAKHA Cluster (x86 + H100)
+# Installing SLEAP on the UTEP PUNAKHA Cluster (x64, H100)
 
 ## Overview
 This guide provides a workflow for installing and running **SLEAP** on the **UTEP PUNAKHA** HPC cluster using the **uv** package manager. 
