@@ -1,0 +1,26 @@
+inference:
+- data_path: prediction_test.slp
+  models:
+  - /app/model/training_config.json
+  only_suggested_frames: false
+  output_path: prediction_test.slp.predictions.slp
+  tracking:
+    tracking.match.flow: greedy
+    tracking.match.simple: hungarian
+    tracking.max_tracks.flow: 1
+    tracking.max_tracks.simple: 1
+    tracking.max_tracks_disabled.flow: true
+    tracking.max_tracks_disabled.simple: true
+    tracking.post_connect_single_breaks.flow: false
+    tracking.post_connect_single_breaks.simple: false
+    tracking.robust.flow: 0.95
+    tracking.robust.simple: 0.95
+    tracking.robust_disabled.flow: true
+    tracking.robust_disabled.simple: true
+    tracking.similarity.flow: oks
+    tracking.similarity.simple: centroid
+    tracking.track_window.flow: 5
+    tracking.track_window.simple: 5
+    tracking.tracker: none
+  type: video
+training: []

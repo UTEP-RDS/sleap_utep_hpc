@@ -1,0 +1,10 @@
+
+# Ignore input data
+/input/
+
+# Ignore predictions output
+/predictions/
+
+
+input*
+predictions*
